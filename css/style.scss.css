@@ -13,8 +13,8 @@ html, body {
   font-size: 16px;
   font-family: "Noto Sans", "Notosans JP", "Hiragino Sans", sans-serif;
   height: 100%;
-  background:var(--maincolor);
-  color: white;
+  background: var(--cream);
+  color: var(--textcolor);
   vertical-align: middle;
 }
 body {
@@ -28,12 +28,12 @@ main {
 /*aタグreset*/
 a {
   text-decoration: none;
-  color: white;
+  color: var(--textcolor);
   font-weight: bold;
   letter-spacing: .2rem;
 }
 a:hover {
-  color: #f6ff77;
+  color: var(--maincolor);
 }
 a:active {
   color: inherit;
@@ -47,12 +47,20 @@ header {
   display: flex;
   align-items: center;
   gap: 16px;
-  border: none;
-	color: white;
-  padding: 0;
+  color: var(--maincolor);
+  border-bottom: 1px solid var(--maincolor);
+  padding-bottom: 1rem;
 }
 footer {
-  text-align: center;
+  color: var(--maincolor);
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: flex-end;
+  letter-spacing: .2rem;
+  font-size: 12px;
+  border-top: 1px solid var(--maincolor);
+  padding-top: 1rem;
 }
 h1, h2, h3, h4 {
   font-weight: 600;
@@ -65,12 +73,12 @@ h1 {
 h2 {
   font-size: 1.125rem;
   line-height: 1.5rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
 }
 h3 {
   font-size: .85rem;
   line-height: 1rem;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
 }
 h4 {
   font-size: .75rem;
@@ -79,7 +87,7 @@ h4 {
 }
 p {
   font-size: .75rem;
-  line-height: 1rem;
+  line-height: 1.15rem;
 }
 .top-itemgroup {
   width: 80%;
