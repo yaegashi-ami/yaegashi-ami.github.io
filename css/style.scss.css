@@ -120,17 +120,3 @@ p {
 .top-item-image {
   max-width: 90%;
 }
-@media screen and (max-width:800px) {
-  html, body {
-    font-size: 12px;
-  }
-  .works-wrap {
-    grid-template-columns: 1fr 1fr;
-    gap: 16px;
-    width: auto;
-  }
-  .works-item a {
-    gap: 8px;
-    align-items: flex-start;
-  }
-}

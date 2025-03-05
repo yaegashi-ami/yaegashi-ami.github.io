@@ -255,3 +255,50 @@ header a {
 .about-wrap .column {
   gap: .25rem;
 }
+
+@media screen and (max-width:1200px) {
+  html, body {
+    font-size: 15px;
+  }
+  .pinokio .grid3 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .pinokio .grid4 {
+    grid-template-columns: 1fr 1fr;
+  }
+  .stickerimg {
+    padding: 0;
+  }
+  .cadet .worksimgs {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width:800px) {
+  html, body {
+    font-size: 14px;
+    height: auto;
+  }
+  .works-wrap {
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: auto;
+  }
+  .works-item a {
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .column-wrap {
+    flex-direction: column;
+    overflow: auto;
+     height: auto;
+  }
+  .left-wrap {
+    width: auto;
+    overflow: auto;
+    height: auto;
+  }
+  header,footer {
+    display: none;
+  }
+}
