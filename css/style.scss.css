@@ -37,7 +37,7 @@ main {
   display: none;
 }
 .footer-sp a {
-  color: #0BA84A;
+  color: var(--maincolor);
 }
 
 /*aタグreset*/
