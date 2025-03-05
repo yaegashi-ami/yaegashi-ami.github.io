@@ -126,7 +126,8 @@ p {
   width: 80%;
   max-width: 1000px;
   margin: 0 auto;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   height: inherit;
@@ -140,6 +141,15 @@ p {
 .top-item:first-child {
   margin-top: -20px;
 }
+.top-item:nth-child(2) img {
+  width: 85%;
+  padding-left: 4%;
+}
+
+.top-item:last-child img {
+  width: 70%;
+  padding-top: 2rem;
+}
 
 .top-item a {
   height: inherit;
@@ -147,7 +157,7 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 2rem;
 }
 
 .top-item:hover {
@@ -485,6 +495,9 @@ header a {
 
   .cadet .worksimgs {
     grid-template-columns: 1fr;
+  }
+  .footer-sp {
+    display: none;
   }
 }
 
