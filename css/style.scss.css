@@ -288,6 +288,10 @@ header a {
   background: #C4B49D;
 }
 
+.pinokio-web {
+  background: #eedacf;
+}
+
 .vivotree {
   background: #ADD0C9;
 }
@@ -565,5 +569,9 @@ header a {
     .no-padding .footer-sp {
       display: flex;
       padding: 2rem;
+     }
+
+     .pinokio-web .grid4 {
+      grid-template-columns: 1fr;
      }
 }
