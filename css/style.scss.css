@@ -339,10 +339,7 @@ header a {
 .thispage {
   pointer-events: none;
   color: var(--maincolor);
-  border-bottom: 1px solid;
-  padding-bottom: .2rem
 }
-
 .genre {
   display: flex;
   flex-wrap: wrap;
