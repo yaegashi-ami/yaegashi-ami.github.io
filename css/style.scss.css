@@ -535,7 +535,6 @@ header a {
 
   .left-wrap {
     width: 100%;
-    overflow: auto;
     height: auto;
   }
 
@@ -549,6 +548,8 @@ header a {
 
   .right-wrap {
     padding: 2rem;
+    height: fit-content;
+    overflow: visible;
   }
   .profile {
     grid-template-columns: 1fr;
