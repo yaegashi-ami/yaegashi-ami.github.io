@@ -211,6 +211,7 @@ header a {
   width: 560px;
   height: 100%;
   padding: 2rem;
+  overflow: scroll;
 }
 
 .works-summary {
@@ -318,9 +319,13 @@ header a {
   gap: 3rem;
 }
 
+.competition {
+  background: lightsteelblue;
+}
+
 .links {
   display: grid;
-  gap: 1rem;
+  gap: .75rem;
   font-size: .75rem;
 }
 
@@ -536,6 +541,7 @@ header a {
   .left-wrap {
     width: 100%;
     height: auto;
+    overflow: unset;
   }
 
   header,
